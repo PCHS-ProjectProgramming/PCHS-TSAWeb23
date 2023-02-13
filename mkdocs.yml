@@ -15,7 +15,6 @@ copyright: Copyright &copy; 2022 - 2023 Mason A. Thompson
 # Configuration
 theme:
   name: material
-  custom_dir: material/.overrides
   features:
     # - announce.dismiss
     - content.action.edit
@@ -67,10 +66,6 @@ plugins:
   - minify:
       minify_html: true
 
-# Hooks
-hooks:
-  - material/.overrides/hooks/translations.py
-
 # Customization
 extra:
   analytics:
@@ -105,8 +100,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: PCHS-ProjectProgramming
+      repo: PCHS-TSAWeb23
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
